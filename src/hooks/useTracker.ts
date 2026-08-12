@@ -5,7 +5,7 @@ export function useTracker(activeTab: ActiveTab) {
   const prevPageRef = useRef<string>('Home');
 
   useEffect(() => {
-    const TRACKING_ENDPOINT = 'https://tools.cprajapati.com/tracker/track.php';
+    const TRACKING_ENDPOINT = 'https://crm.webmakerit.com/tracker/track.php';
     const urlParams = new URLSearchParams(window.location.search);
     
     let cid = urlParams.get('cid') || localStorage.getItem('wmit_active_cid');
