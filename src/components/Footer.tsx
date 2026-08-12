@@ -137,7 +137,7 @@ export default function Footer({ setActiveTab }: FooterProps) {
           <p className="flex flex-wrap items-center gap-1.5 justify-center md:justify-start">
             <span>© {currentYear} New Archana Medical Agency. All Rights Reserved.</span>
             <span>|</span>
-            <span>Developed by <a href="#" className="wmit-popup-trigger hover:text-white underline transition-colors" target="_blank" rel="noopener noreferrer">Developed by WMIT</a></span>
+            <span>Developed by <a href="#" className="wmit-popup-trigger hover:text-white underline transition-colors" target="_blank" rel="noopener noreferrer"> WMIT</a></span>
             <span>|</span>
             <span className="flex items-center gap-1">
               <span>Crafted with</span>
